@@ -2,4 +2,4 @@
 
 Dora is super neat
 
-Travis is also kind of fine I guess.
+Travis is also kind of fine (...ish) I guess.
