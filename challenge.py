@@ -1,4 +1,4 @@
 print("challenge")
-print("Accepeted")
+print("accepeted")
 print("failed")
-print("Denied")
+print("denied")
