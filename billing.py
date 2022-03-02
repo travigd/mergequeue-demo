@@ -17,6 +17,9 @@ from flask_login import login_required
 logger = app.logger
 
 
+print("don't tell anyone that you found this, it's our little secret print statement")
+
+
 @app.route('/account/billing')
 @admin_required
 def account_billing():
