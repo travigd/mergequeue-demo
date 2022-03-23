@@ -3,7 +3,7 @@ name: Sleep
 on: [push]
 
 jobs:
-  build:
+  sleep:
 
     runs-on: ubuntu-latest
 
