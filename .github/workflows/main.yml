@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: Sleep
       run: |
-        sleep 20
+        sleep 200
