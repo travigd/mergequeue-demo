@@ -1,2 +1,0 @@
-hello, world
-mq-qa-stacked-11108 #1
