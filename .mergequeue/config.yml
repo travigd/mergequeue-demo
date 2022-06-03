@@ -1,0 +1,12 @@
+version: 1.0.0
+merge_rules:
+  labels:
+    trigger: mq-ready
+  ci_timeout_mins: 0
+  preconditions:
+    use_github_mergeability: true
+  merge_mode:
+    type: parallel
+    parallel_mode: null
+  base_branches:
+  - main
