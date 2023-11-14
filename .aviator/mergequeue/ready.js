@@ -7,7 +7,7 @@ function ready() {
   const { behindBy } = $github.compareCommits({ base, head });
   if (behindBy > MAX_COMMITS_BEHIND) {
     $github.addComment(
-      `Pull request is ${behindBy} commits behind ${base}. ` +
+      `Pull request is ${behindBy} commits behind \`${base}\`. ` +
       `Synchronizing pull request with latest commits before queuing.`
     );
 
@@ -16,7 +16,7 @@ function ready() {
     $mergequeue.synchronizePullRequest();
   } else {
     $github.addComment(
-      `Pull request is ${behindBy} comits behind ${base}. ` +
+      `Pull request is ${behindBy} comits behind \`${base}\`. ` +
       `Not synchronizisng pull request with the latest commits.`
     );
   }
